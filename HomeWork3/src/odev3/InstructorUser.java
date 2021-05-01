@@ -1,5 +1,8 @@
 package odev3;
 
-public class InstructorUser extends User {
-
+public class InstructorUser extends UserManager {
+	
+	public void homeWorkControl() {
+		System.out.println("odevler kontrol edildi");
+	}
 }
