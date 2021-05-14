@@ -1,19 +1,19 @@
-package odev3;
+package HomeWork3;
 
 public class User {
 	int id;
 	String name;
 	String mail;
-	
+
 	public User() {
-		
+
 	}
-	
-	public User(int id,   String mail, String name) {
+
+	public User(int id, String mail, String name) {
 		super();
 		this.id = id;
-		this.name=name;
-		this.mail=mail;
+		this.name = name;
+		this.mail = mail;
 
 	}
 }

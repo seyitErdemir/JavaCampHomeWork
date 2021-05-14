@@ -1,7 +1,7 @@
-package odev3;
+package HomeWork3;
 
 public class Student extends User {
-	
+
 	String homeWork;
 
 	public String getHomeWork() {

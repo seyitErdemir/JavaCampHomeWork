@@ -1,4 +1,4 @@
-package odev3;
+package HomeWork3;
 
 public class Instructor extends User {
 

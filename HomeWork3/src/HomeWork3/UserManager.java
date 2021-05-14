@@ -1,4 +1,4 @@
-package odev3;
+package HomeWork3;
 
 public class UserManager {
 	public void add(User user) {
@@ -8,13 +8,14 @@ public class UserManager {
 		System.out.println(user.mail + "  mail kaydedildi");
 
 		System.out.println("---------------------------");
-		
+
 	}
+
 	public void addMultiple(User[] users) {
-		for(User user:users) {
+		for (User user : users) {
 			add(user);
-			
+
 		}
-		
+
 	}
 }
